@@ -27,6 +27,7 @@ body {
 	background-color: #fff;
 	box-shadow: 1px 1px 5px #888888;
 	padding: 15px;
+	margin: 50px;
 }
 
 .calc-display {
@@ -95,5 +96,6 @@ body {
 	.calc {
 		width: 100%;
 		box-shadow: none;
+		margin: 0;
 	}
 }
