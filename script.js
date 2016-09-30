@@ -6,9 +6,9 @@ var buttons = document.querySelectorAll( '.calc-btn' );
 for(var i = 0; i < buttons.length; i++) {
 	buttons[i].addEventListener("click", function(){
 		// Add function here
+		console.log("keydown")
 	});
 };
-
 
 function calculator(el) {
     if (numbers.indexOf(el) != -1){
