@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styling -->
+    <link href="style.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="container">
+          <div class="clear" onclick="zero()">
+            <p>C</p>
+          </div>
+          <div class="calc-display">
+            <p id="result">0</p>s
+          </div>
+        </div>
+        <div class="container">
+          <div class="calc-btn" onclick="calculator('7')">
+            <p>7</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('8')">
+            <p>8</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('9')">
+            <p>9</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('+')">
+            <p>+</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="calc-btn" value="4" onclick="calculator('4')">
+            <p>4</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('5')">
+            <p>5</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('6')">
+            <p>6</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('-')">
+            <p>-</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="calc-btn" onclick="calculator('1')">
+            <p>1</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('2')">
+            <p>2</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('3')">
+            <p>3</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('/')">
+            <p>/</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="calc-btn" onclick="calculator('0')" style="width:190px;">
+            <p>0</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('.')">
+            <p>.</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('x34')">
+            <p>x</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="total" onclick="total()" style="width:300px;">
+            <p>=</p>
+          </div>
+          <div class="calc-btn" onclick="calculator('x34')">
+            <p> &#8730; </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
