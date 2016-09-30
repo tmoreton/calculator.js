@@ -83,7 +83,7 @@ var calculator = function(el) {
 		total();
 
 	// Check keyboard Delete key
-	} else if (el == "Backspace"){
+	} else if (el == "Backspace" || el == "Clear" ){
 		zero();
 	}
 }
