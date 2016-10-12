@@ -2,4 +2,4 @@
 
 ![demo](calculator.gif)
 
-[Test It Out](https://tmoreton.github.io/calculator/)
+[Test It Out](https://tmoreton.github.io/calculator.js/)
